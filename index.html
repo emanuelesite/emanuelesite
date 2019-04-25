@@ -21,6 +21,9 @@
 
 	<script src="assets/js/modernizr.custom.js"></script>
 
+	<!-- Lazy loaging with -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
 
 </head>
 <body>
@@ -120,7 +123,7 @@
 			<div class="row">
 				<div class="col-sm-3">
 					<div class="iconbox wow slideInLeft">
-						<img src="assets/images/Foto_Emanuele/Violino-min.png" alt="img02">
+						<img class="lozad" data-src="assets/images/Foto_Emanuele/Violino-min.png" alt="img02">
 						<!-- <div class="iconbox-icon">
 							<span class="icon-magic-wand"></span>
 						</div> -->
@@ -135,7 +138,7 @@
 
 				<div class="col-sm-3">
 					<div class="iconbox wow slideInLeft">
-						<img src="assets/images/Foto_Emanuele/3.jpg" alt="img02">
+						<img class="lozad" data-src="assets/images/Foto_Emanuele/3.jpg" alt="img02">
 						<!-- <div class="iconbox-icon">
 							<span class="icon-puzzle"></span>
 						</div> -->
@@ -149,7 +152,7 @@
 
 				<div class="col-sm-3">
 					<div class="iconbox wow slideInRight">
-						<img src="assets/images/Foto_Emanuele/back.jpg" alt="img02">
+						<img class="lozad" data-src="assets/images/Foto_Emanuele/back.jpg" alt="img02">
 						<!-- <div class="iconbox-icon">
 							<span class="icon-badge"></span>
 						</div> -->
@@ -401,8 +404,8 @@
 
 		<div class="row-fluid">
 				<div class="col-lg-12 text-center">
-			<div id="carousel-example-generic" class="carousel slide container">
-				<!-- Indicators -->
+			 <div id="carousel-example-generic" class="carousel slide container">
+
 				<ol class="carousel-indicators hidden-xs">
 					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -412,32 +415,30 @@
 					<li data-target="#carousel-example-generic" data-slide-to="5"></li>
 				</ol>
 
-					<!-- Wrapper for slides -->
+
 					<div class="carousel-inner">
 
 						<div class="item active">
-							<div class="img-responsive img-full" style="background: url('assets/images/Foto_Emanuele/1.jpg') no-repeat center 0"></div>
+							<div class="img-responsive img-full lozad" data-background-image="assets/images/Foto_Emanuele/1.jpg" ></div>
 						</div>
 						<div class="item">
-							<div class="img-responsive img-full" style="background: url('assets/images/Foto_Emanuele/2.jpg') no-repeat center center"></div>
+							<div class="img-responsive img-full lozad" data-background-image="assets/images/Foto_Emanuele/2.jpg"></div>
 						</div>
 						<div class="item">
-							<div class="img-responsive img-full" style="background: url('assets/images/Foto_Emanuele/5.jpg') no-repeat center center"></div>
+							<div class="img-responsive img-full lozad" data-background-image="assets/images/Foto_Emanuele/5.jpg"></div>
 						</div>
 						<div class="item">
-							<div class="img-responsive img-full" style="background: url('assets/images/Foto_Emanuele/4.jpg') no-repeat center center"></div>
+							<div class="img-responsive img-full lozad" data-background-image="assets/images/Foto_Emanuele/4.jpg"></div>
 						</div>
 						<div class="item active">
-							<div class="img-responsive img-full" style="background: url('assets/images/Foto_Emanuele/premio_civilitas.jpg') no-repeat center center"></div>
+							<div class="img-responsive img-full lozad" data-background-image="assets/images/Foto_Emanuele/premio_civilitas.jpg"></div>
 						</div>
 						<div class="item">
-							<div class="img-responsive img-full" style="background: url('assets/images/Foto_Emanuele/Violino-min.png') no-repeat center center"></div>
+							<div class="img-responsive img-full lozad" data-background-image="assets/images/Foto_Emanuele/Violino-min.png"></div>
 						</div>
 					</div>
 
 
-
-					<!-- Controls -->
 					<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
 						<span class="icon-custom-prev"></span>
 					</a>
@@ -445,6 +446,7 @@
 						<span class="icon-custom-next"></span>
 					</a>
 				</div>
+
 			</div>
 		</div>
 
@@ -504,6 +506,9 @@
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</section>
+
+
+
 
 	<!-- Contact end -->
 
@@ -651,6 +656,12 @@
 	}
 
 	</script>
+
+	<script>
+		const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+		observer.observe();
+	</script>
+
 
 </body>
 </html>
