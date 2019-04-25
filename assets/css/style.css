@@ -1074,3 +1074,67 @@ hr {
     border: 5;
     border-top: 1px solid #aaa;
 }
+
+.mt-10-p{
+	margin-top: 10% !important;
+}
+
+.mt-8-p{
+	margin-top: 8% !important;
+}
+
+.btn-custom{
+	color: #fff;
+  background-color: #1a85e4;
+  border-color: #6c757d;
+}
+
+.btn-custom:hover{
+	color: #fff;
+  background-color: #274c71;
+  border-color: #6c757d;
+}
+
+.cc-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+.italian{
+	background-image:url("../images/italy_flag.jpeg");
+}
+.inglese{
+	background-image:url("../images/english_flag.png");
+}
+
+.cc-selector input:active +.languagecard-cc{opacity: .9;}
+.cc-selector input:checked +.languagecard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.languagecard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+		width: 57px;
+    height: 38px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.languagecard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+/* Extras */
+a:visited{color:#888}
+a{color:#444;text-decoration:none;}
+p{margin-bottom:.3em;}
