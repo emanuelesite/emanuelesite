@@ -1144,3 +1144,13 @@ hr {
 a:visited{color:#888}
 a{color:#444;text-decoration:none;}
 p{margin-bottom:.3em;}
+
+
+
+
+.artisti{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
