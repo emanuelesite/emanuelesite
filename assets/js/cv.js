@@ -73,6 +73,10 @@
 	<p>Dal 2017 collabora con l’Orchestra del San Carlo di Napoli come violinista a contratto. Suona a Napoli sotto la direzione del M° Zubin Metha e svolge, nel settembre del 2018, una tournèe con l’Orchestra a Bangkok.</p>`
 
 
+  // inizalizzo la lingua e il testo principale
+  document.getElementById("inglese").checked = true;
+  document.getElementById("cv").innerHTML = english_text;
+
 	function check_value(){
 		var x = document.getElementById("inglese").checked;
 		console.log(x);
