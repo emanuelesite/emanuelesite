@@ -59,6 +59,7 @@
 	<p>- 26 ottobre 2014, Recital per arpa , violino e pianoforte presso il Teatro Accademia di Conegliano Veneto, musiche di J.S.Bach, K.Reinecke, C.Debussy, C. Saint-Saens</p>
 	<p>- 1 novembre 2014, Concerto per violino e pianoforte a Milton nelle Midlands ( Inghilterra ), musiche di J.S.Bach, L.van Beethoven, N.Paganini</p>
 	<p>- 9 novembre 2014, Recital per violino e orchestra presso la Concert Hall della Royal Accademy of London, musiche di B.Britten ( War Requiem ). </p>
+	<p>- aprile 2017, Concerto per violino e pianoforte (Chiara Opalio), musiche di C.Debussy, H.Wieniawsky, F.Kreisler, F.Shubert, F.Chopin, E.Grieg. </p>
 	<p>Il 13 ottobre 2014 vince l’audizione, unico italiano tra i violinisti candidati, per partecipare ad un prestigioso seminario di perfezionamento violinistico con il M° Igor Ozim del Mozarteum di Salisburgo presso la Royal Accademy di Londra.</p>
 	<p>Nel marzo del 2015 suona in diversi importanti teatri veneti le 4 Stagioni di Vivaldi, acconpagnato dall’Orchestra Barocca “Gruppo d’archi del Veneto” diretto dal M° Maffeo Scarpis.</p>
 	<p>Supera nell’estate 2015 l’audizione per il Corso di Alto Perfezionamento Violinistico tenuto dal M° Salvatore Accardo presso l’Accademia Chigiana di Siena ed viene da lui stesso scelto per suonare nel concerto finale.</p>
