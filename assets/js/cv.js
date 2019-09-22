@@ -78,8 +78,9 @@
 
 
   // inizalizzo la lingua e il testo principale
-  document.getElementById("inglese").checked = true;
-  document.getElementById("cv").innerHTML = english_text;
+  document.getElementById("inglese").checked = false;
+	document.getElementById("italian").checked = true;
+  document.getElementById("cv").innerHTML = italian_text;
 
 	function check_value(){
 		var x = document.getElementById("inglese").checked;
