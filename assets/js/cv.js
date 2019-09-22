@@ -71,7 +71,10 @@
 	<p>Dal 2015 collabora stabilmente con l’Orchestra diretta dal M° Paolo Pessina.
 	E’ primo violino del “Quartetto Aura”  e del “Quintetto di Venezia” che si è formato sotto la guida della Prof.ssa Luisa Messinis.</p>
 	<p>Ha collaborato con la Rai Radiotelevisione Italiana suonando nell’orchestra giovanile Rai per programmi trasmessi in diretta sui canali nazionali.</p>
-	<p>Dal 2017 collabora con l’Orchestra del San Carlo di Napoli come violinista a contratto. Suona a Napoli sotto la direzione del M° Zubin Metha e svolge, nel settembre del 2018, una tournèe con l’Orchestra a Bangkok.</p>`
+	<p>Dal 2017 collabora con l’Orchestra del San Carlo di Napoli come violinista a contratto. Suona a Napoli sotto la direzione del M° Zubin Metha e svolge, nel settembre del 2018, una tournèe con l’Orchestra a Bangkok.</p>
+	<p>E' stato invitato a suonare nell'ambito delle manifestazioni artistiche e culturali per " Matera, Capitale della Cultura 2019". In veste di violino solista ed accompagnato dai Professori del San Carlo di Napoli, diretti da Pasquale Menchise, ha suonato il 5 agosto presso la chiesa di San Francesco a Matera, musiche di Vivaldi e Paganini. Il concerto ha riscosso un vasto consenso di pubblico e critica.</p>
+  <p>Ha partecipato in settembre al Festival Internazionale di Musica di Ravello con il quintetto formato dalla sorella pianista Arianna Bastanzetti, Eiliin Labarca Bencomo alla viola, Renèe Guerrini al violino ed Estella Candito al violoncello, musiche di Schumann</p>`
+
 
 
   // inizalizzo la lingua e il testo principale
